@@ -38,7 +38,7 @@ public class AppTest
     
 	public void testPrintHelloWorld() {
 
-		assertEquals(App.getHelloWorld(), "Hello World");
+		assertEquals(App.getHelloWorld(), "Hello World2");
 
 	}
     

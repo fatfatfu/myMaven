@@ -35,4 +35,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+	public void testPrintHelloWorld() {
+
+		assertEquals(App.getHelloWorld(), "Hello World");
+
+	}
+    
 }

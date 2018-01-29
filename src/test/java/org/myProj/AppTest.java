@@ -1,5 +1,10 @@
 package org.myProj;
 
+import java.util.Arrays;
+
+import org.algo.sort.Bubble;
+
+import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -37,6 +42,14 @@ public class AppTest
 
 		assertEquals(App.getHelloWorld(), "Hello World");
 
+	}
+	
+	public void testBubble() {
+		int[] arr = {5,9,3,1,2,8,4,7,6};
+		Bubble.sort(arr);
+		int []result ={1,2,3,4,5,6,7,8,9};
+		assertTrue( Arrays.equals(arr, result) );
+//		Assert.assertArrayEquals(arr,result);
 	}
     
 }

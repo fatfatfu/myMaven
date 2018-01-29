@@ -1,7 +1,8 @@
 package org.myProj;
 
 /**
- * Hello world!
+ * 
+ * @author david
  *
  */
 public class App 
@@ -10,10 +11,16 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+    
 	public static String getHelloWorld() {
 
 		return "Hello World";
 
 	}
-    
+	
+	public static String sort() {
+
+		return "Hello World";
+
+	}
 }
